@@ -1,0 +1,738 @@
+# newdoc id = doc1
+# sent_id =  1
+# text = Абсінт має характерістічну природну зелену фарбу, але може быти і без фарбы.
+1	Абсінт	Абсінт	NOUN	_	_	2	nsubj	_	_
+2	має	мати	VERB	_	_	0	root	_	_
+3	характерістічну	характерістічний	ADJ	_	_	6	amod	_	_
+4	природну	природний	ADJ	_	_	6	amod	_	_
+5	зелену	зелений ADJ	ADJ	_	_	6	amod	_	_
+6	фарбу	фарба	NOUN	_	_	2	obj	_	_
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	але	але	CCONJ	_	_	9	cc	_	_
+9	може	могти	VERB	_	_	2	conj	_	_
+10	быти	быти	AUX	_	_	9	aux	_	_
+11	і	і	CONJ	_	_	13	dep	_	_
+12	без	без	ADP	_	_	13	case	_	_
+13	фарбы	фарбa	NOUN	_	_	9	obj	_	_
+
+# newdoc id = doc2
+# sent_id =  1
+# text = Автором методы асертівного тренінґу (тренінґу асертівіты) є Америчан А. Салтер.
+1	Автором	автор	NOUN	_	_	_	_	_	_
+2	методы	методa	NOUN	_	_	1	nmod	_	_
+3	асертівного	асертівний	ADJ	_	_	4	amod	_	_
+4	тренінґу	тренінґа	NOUN	_	_	2	nmod	_	_
+5	(	(	PUNCT	_	_	6	punct	_	_
+6	тренінґу	тренінґа	NOUN	_	_	4	appos	_	_
+7	асертівіты	асертівітa	ADJ	_	_	6	amod	_	_
+8	)	)	PUNCT	_	_	6	punct	_	_
+9	є	бути	AUX	_	_	1	cop	_	_
+10	Америчан	Америчан	PROPN	_	_	1	nsubj	_	_
+11	А	А	PROPN	_	_	10	flat	_	_
+12	.	.	PUNCT	_	_	11	punct	_	_
+13	Салтер	Салтер	PROPN	_	_	10	flat	_	_
+14	.	.	PUNCT	_	_	1	punct	_	_
+
+
+# newdoc id = doc3
+# sent_id = 1
+# text = Авторы, котры ся переважно шпециализують в жанрѣ повѣдкы называють ся повѣдкарь або повѣдкарька.
+1	Авторы	Авторa	NOUN	_	_	10	nsubj	_	_
+2	,	,	PUNCT	_	_	_	_	_	_
+3	котры	котрa	PRON	_	_	6	nsubj	_	_
+4	ся	ся	PRON	_	_	6	iobj	_	_
+5	переважно	переважно	ADV	_	_	6	advmod	_	_
+6	шпециализують	шпециализувати	VERB	_	_	1	acl	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	жанрѣ	жанрѣ	NOUN	_	_	6	obl	_	_
+9	повѣдкы	повѣдкa X	NOUN	_	_	8	nmod	_	_
+10	называють	называти	VERB	_	_	0	root	_	_
+11	ся	ся	PRON	_	_	10	iobj	_	_
+12	повѣдкарь	повѣдкарь	NOUN	_	_	10	obj	_	_
+13	або	або	CCONJ	_	_	14	cc	_	_
+14	повѣдкарька	повѣдкарька	NOUN	_	_	12	conj	_	_
+15	.	.	PUNCT	_	_	10	punct	_	_
+
+
+# newdoc id = doc4
+# sent_id = 1
+# text = Авшак, быв выслободженый уже в року 1962, вымѣнов за совѣтского шпиона.
+1	Авшак	Авшак	PROPN	_	_	10	nsubj	_	_
+2	,	,	PUNCT	_	_	4	punct	_	_
+3	быв	быти	VERB	_	_	4	cop	_	_
+4	выслободженый	выслободженыти	ADJ	_	_	1	acl	_	_
+5	уже	уже	ADV	_	_	4	advmod	_	_
+6	в	в	ADP	_	_	8	case	_	_
+7	року	рік	NOUN	_	_	8	nmod	_	_
+8	1962	1962	NUM	_	_	4	obl	_	_
+9	,	,	PUNCT	_	_	4	punct	_	_
+10	вымѣнов	вымѣнов	VERB	_	_	0	root	_	_
+11	за	за	ADP	_	_	13	case	_	_
+12	совѣтского	совѣтский	ADJ	_	_	13	amod	_	_
+13	шпиона	шпион	NOUN	_	_	10	obj	_	_
+14	.	.	PUNCT	_	_	10	punct	_	_
+
+
+# newdoc id = doc5
+# sent_id = 1
+# text = Адолф, котрый му дав закладаючу листину о городскых правах в року 1621.
+1	Адолф	Адолф	PROPN	_	_	_	_	_	_
+2	,	,	PUNCT	_	_	5	punct	_	_
+3	котрый	котрый	PRON	_	_	5	nsubj	_	_
+4	му	ма	NOUN	_	_	5	iobj	_	_
+5	дав	дати	VERB	_	_	1	acl	_	_
+6	закладаючу	закладаючий	ADJ	_	_	7	amod	_	_
+7	листину	листина	NOUN	_	_	5	obj	_	_
+8	о	о	ADP	_	_	10	case	_	_
+9	городскых	городскый	NOUN	_	_	10	nmod	_	_
+10	правах	право	NOUN	_	_	5	obl	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	року	рік	NOUN	_	_	5	obl	_	_
+13	1621	1621	ADJ	_	_	12	amod	_	_
+14	.	.	PUNCT	_	_	1	punct	_	_
+
+
+# newdoc id = doc6
+# sent_id = 1
+# text = Аж в десятом року войны вдякы военному чаловству Одисея удало ся добыти Трою.
+1	Аж	аж	ADP	_	_	4	case	_	_
+2	в	в	ADP	_	_	4	case	_	_
+3	десятом	десято	NOUN	_	_	4	nmod	_	_
+4	року	рік	NOUN	_	_	12	obl	_	_
+5	войны	войнa	NOUN	_	_	4	nmod	_	_
+6	вдякы	вдякa	ADP	_	_	8	case	_	_
+7	военному	военний	ADJ	_	_	8	amod	_	_
+8	чаловству	чаловство	NOUN	_	_	12	obl	_	_
+9	Одисея	Одисей	PROPN	_	_	8	nmod	_	_
+10	удало	удало	ADV	_	_	12	advmod	_	_
+11	ся	ся	PRON	_	_	12	iobj	_	_
+12	добыти	добыти	VERB	_	_	0	root	_	_
+13	Трою	Тра	PROPN	_	_	12	obj	_	_
+14	.	.	PUNCT	_	_	12	punct	_	_
+
+# newdoc id = doc7
+# sent_id = 1
+# text = Аж в марцу было доста укрыть, жебы позосталы могли жити на березѣ.
+1	Аж	аж	ADP	_	_	3	case	_	_
+2	в	в	ADP	_	_	3	case	_	_
+3	марцу	марц	NOUN	_	_	5	obl	_	_
+4	было	было	VERB	_	_	5	cop	_	_
+5	доста	дост	ADJ	_	_	0	root	_	_
+6	укрыть	укрыть	VERB	_	_	5	xcomp	_	_
+7	,	,	PUNCT	_	_	11	punct	_	_
+8	жебы	жебa	NOUN	_	_	11	nsubj	_	_
+9	позосталы	позосталa	ADJ	_	_	8	amod	_	_
+10	могли	могти	VERB	_	_	11	xcomp	_	_
+11	жити	жити	VERB	_	_	5	acl	_	_
+12	на	на	ADP	_	_	13	case	_	_
+13	березѣ	березѣ	NOUN	_	_	11	obl	_	_
+14	.	.	PUNCT	_	_	5	punct	_	_
+
+# newdoc id = doc8
+# sent_id = 1
+# text = Аж его отець, Валентин, переселив ся до Чешина, де быв ремеселником.
+1	Аж	аж	ADP	_	_	3	case	_	_
+2	его	еий	ADJ	_	_	3	amod	_	_
+3	отець	отець	NOUN	_	_	7	nsubj	_	_
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	Валентин	Валентин	PROPN	_	_	3	appos	_	_
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	переселив	переселити	VERB	_	_	0	root	_	_
+8	ся	ся	PRON	_	_	7	iobj	_	_
+9	до	до	ADP	_	_	10	case	_	_
+10	Чешина	Чешин	PROPN	_	_	7	obl	_	_
+11	,	,	PUNCT	_	_	14	punct	_	_
+12	де	де	SCONJ	_	_	14	mark	_	_
+13	быв	быти	VERB	_	_	14	cop	_	_
+14	ремеселником	ремеселник	NOUN	_	_	10	acl	_	_
+15	.	.	PUNCT	_	_	7	punct	_	_
+
+# newdoc id = doc9
+# sent_id = 1
+# text = Азоры суть в области повышеного атмосферичного тискнѣня (Азорскый антициклон).
+1	Азоры	азоры	PROPN	_	_	2	compound	_	_
+2	суть	сути	NOUN	_	_	4	nsubj	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	области	область	NOUN	_	_	_	_	_	_
+5	повышеного	повышений	ADJ	_	_	7	amod	_	_
+6	атмосферичного	атмосферичний	ADJ	_	_	7	amod	_	_
+7	тискнѣня	тискнѣня	NOUN	_	_	4	nmod	_	_
+8	(	(	PUNCT	_	_	10	punct	_	_
+9	Азорскый	Азорскый	ADJ	_	_	10	amod	_	_
+10	антициклон	антициклон	NOUN	_	_	4	appos	_	_
+11	)	)	PUNCT	_	_	10	punct	_	_
+12	.	.	PUNCT	U	_	4	punct	_	SpacesAfter=
+
+
+# newdoc id = doc10
+# sent_id = 1
+# text = Ай в зимі находять під коров стромів доста хробаків і ларв.
+1	Ай	ай	VERB	_	_	3	discourse	_	_
+2	в	в	ADP	_	_	3	case	_	_
+3	зимі	зима	NOUN	_	_	4	obl	_	_
+4	находять	находити	VERB	_	_	0	root	_	_
+5	під	під	ADP	_	_	7	case	_	_
+6	коров	корова	NOUN	_	_	7	nmod	_	_
+7	стромів	стром	NOUN	_	_	4	obl	_	_
+8	доста	достий	NUM	_	_	4	nsubj	_	_
+9	хробаків	хробак	NOUN	_	_	8	nmod	_	_
+10	і	і	CCONJ	_	_	11	cc	_	_
+11	ларв	ларва	NOUN	_	_	9	conj	_	_
+12	.	.	PUNCT	_	_	4	punct	_	_
+
+
+# newdoc id = doc11
+# sent_id = 1
+# text = Академик М. И. Сухомлинов писав, же «Шишков став ся повным пановником в академии».
+1	Академик	Академик	PROPN	_	_	7	nsubj	_	_
+2	М	М.	PROPN	_	_	1	flat	_	_
+3	.	.	PUNCT	_	_	2	punct	_	_
+4	И	и	PROPN	_	_	1	flat	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+6	Сухомлинов	Сухомлинов	PROPN	_	_	1	flat	_	_
+7	писав	писати	VERB	_	_	0	root	_	_
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	же	же	PART	_	_	12	mark	_	_
+10	«	«	PUNCT	_	_	12	punct	_	_
+11	Шишков	Шишков	PROPN	_	_	12	nsubj	_	_
+12	став	стати	VERB	_	_	7	ccomp	_	_
+13	ся	ся	PRON	_	_	12	iobj	_	_
+14	повным	повный	ADJ	_	_	15	amod	_	_
+15	пановником	пановник	NOUN	_	_	12	obj	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	академии	академиа	NOUN	_	_	12	obl	_	_
+18	»	»	PUNCT	_	_	12	punct	_	_
+19	.	.	PUNCT	_	_	7	punct	_	_
+
+
+# newdoc id = doc12
+# sent_id = 1
+# text = Акростих "ТАЙСТРИНА" быв напичатаный у 9 выпуску журнала "Отцюзнина".
+1	Акростих	Акростий	VERB	_	_	6	nsubj	_	_
+2	"	"	PUNCT	_	_	3	punct	_	_
+3	ТАЙСТРИНА	ТАЙСТРИНА	PROPN	_	_	1	appos	_	_
+4	"	"	PUNCT	_	_	3	punct	_	_
+5	быв	быв	VERB	_	_	6	cop	_	_
+6	напичатаный	напичатаныя	ADJ	_	_	0	root	_	_
+7	у	у	ADP	_	_	9	case	_	_
+8	9	9	NUM	_	_	9	nummod	_	_
+9	выпуску	выпуск	NOUN	_	_	6	obl	_	_
+10	журнала	журнал	NOUN	_	_	9	nmod	_	_
+11	"	"	PUNCT	_	_	12	punct	_	_
+12	Отцюзнина	Отцюзнина	PROPN	_	_	10	appos	_	_
+13	"	"	PUNCT	_	_	12	punct	_	_
+14	.	.	PUNCT	_	_	6	punct	_	_
+
+
+# newdoc id = doc13
+# sent_id = 1
+# text = Актівну естетічну задачу ту мають фарбы (блядожовта, ясносиня, тмавочервена).
+1	Актівну	Актівний	ADJ	_	_	3	amod	_	_
+2	естетічну	естетічний	ADJ	_	_	3	amod	_	_
+3	задачу	задача	NOUN	_	_	5	obj	_	_
+4	ту	той	DET	_	_	6	det	_	_
+5	мають	мати	VERB	_	_	0	root	_	_
+6	фарбы	фарбa	NOUN	_	_	5	nsubj	_	_
+7	(	(	PUNCT	_	_	8	punct	_	_
+8	блядожовта	блядожовт	NOUN	_	_	6	appos	_	_
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	ясносиня	ясносиня	NOUN	_	_	8	conj	_	_
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	тмавочервена	тмавочервений	NOUN	_	_	8	conj	_	_
+13	)	)	PUNCT	_	_	8	punct	_	_
+14	.	.	PUNCT	_	_	5	punct	_	_
+
+
+# newdoc id = doc14
+# sent_id = 1
+# text = Алґебра є дуже шырока математічна область і можне єй розчленити до много дісціплін.
+1	Алґебра	Алґебро	NOUN	_	_	6	nsubj	_	_
+2	є	бути	AUX	_	_	6	cop	_	_
+3	дуже	дуже	ADV	_	_	4	amod	_	_
+4	шырока	шырокий	ADJ	_	_	6	amod	_	_
+5	математічна	математічний	ADJ	_	_	6	amod	_	_
+6	область	область	NOUN	_	_	0	root	_	_
+7	і	і	CCONJ	_	_	10	conj	_	_
+8	можне	можний	VERB	_	_	10	aux	_	_
+9	єй	єя	AUX	_	_	8	aux	_	_
+10	розчленити	розчленити	VERB	_	_	6	xcomp	_	_
+11	до	до	ADP	_	_	13	case	_	_
+12	много	мний	ADJ	_	_	13	amod	_	_
+13	дісціплін	дісціплін	NOUN	_	_	10	obl	_	_
+14	.	.	PUNCT	U	_	6	punct	_	_
+
+
+# newdoc id = doc15
+# sent_id = 1
+# text = Алґорітм - точный навод ці поступ, котрым ся дасть вырїшыти дана задача.
+1	Алґорітм	Алґорітй	NOUN	_	_	4	nsubj	_	_
+2	-	-	PUNCT	_	_	1	punct	_	_
+3	точный	точный	ADJ	_	_	4	amod	_	_
+4	навод	навод	NOUN	_	_	_	_	_	_
+5	ці	цей	CCONJ	_	_	6	cc	_	_
+6	поступ	поступ	NOUN	_	_	4	conj	_	_
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	котрым	котры	NOUN	_	_	11	mark	_	_
+9	ся	ся	PRON	_	_	11	iobj	_	_
+10	дасть	дати	VERB	_	_	11	aux	_	_
+11	вырїшыти	вырїшыти	VERB	_	_	4	ccomp	_	_
+12	дана	даний	ADJ	_	_	13	amod	_	_
+13	задача	задача	NOUN	_	_	11	obj	_	_
+14	.	.	PUNCT	_	_	4	punct	_	_
+
+# newdoc id = doc16
+# sent_id = 1
+# text = 	Але вецеро историкох не поважують тоту хронику за сполягливе историчне жерело.
+1	Але	але	CCONJ	Ccs	_	3	mark	_	_
+2	вецеро	вецеро	ADJ	_	_	3	amod	_	_
+3	историкох	историкох	NOUN	_	_	5	nsubj	_	_
+4	не	не	PART	_	_	5	aux	_	_
+5	поважують	поважувати	VERB	_	_	0	root	_	_
+6	тоту	тота	DET	_	_	7	det	_	_
+7	хронику	хроник	NOUN	_	_	5	obj	_	_
+8	за	за	ADP	_	_	11	case	_	_
+9	сполягливе	сполягливий	ADJ	_	_	11	amod	_	_
+10	историчне	историчний	ADJ	_	_	11	amod	_	_
+11	жерело	жерело	NOUN	_	_	5	iobj	_	_
+12	.	.	PUNCT	_	_	5	punct	_	_
+
+
+# newdoc id = doc17
+# sent_id = 1
+# text = Але «вонкашны знакы и проявы» треба брати в якнайширшом понятю.
+1	Але	але	CCONJ	_	_	4	mark	_	_
+2	«	«	PUNCT	_	_	4	punct	_	_
+3	вонкашны	вонкашнa	ADJ	_	_	4	amod	_	_
+4	знакы	знакa	NOUN	_	_	9	nsubj	_	_
+5	и	и	CCONJ	_	_	6	cc	_	_
+6	проявы	проявa	NOUN	_	_	4	conj	_	_
+7	»	»	PUNCT	_	_	4	punct	_	_
+8	треба	треба	ADV	_	_	9	advmod	_	_
+9	брати	брати	VERB	_	_	0	root	_	_
+10	в	в	ADP	_	_	12	case	_	_
+11	якнайширшом	якнайширш	ADJ	_	_	12	amod	_	_
+12	понятю	понять	NOUN	_	_	9	obj	_	_
+13	.	.	PUNCT	_	_	9	punct	_	_
+
+# newdoc id = doc18
+# sent_id = 1
+# text = Але дакотры стали ся окремыма локалитами и мають назву Новоселиця або ей варианты.
+1	Але	але	CCONJ	_	_	2	mark	_	_
+2	дакотры	дакотрa	NOUN	_	_	3	nsubj	_	_
+3	стали	стати	VERB	_	_	0	root	_	_
+4	ся	ся	PRON	_	_	3	iobj	_	_
+5	окремыма	окремымий	ADJ	_	_	6	amod	_	_
+6	локалитами	локалит	NOUN	_	_	3	obj	_	_
+7	и	и	CCONJ	_	_	9	cc	_	_
+8	мають	мати	VERB	_	_	9	aux	_	_
+9	назву	назва	VERB	_	_	3	xcomp	_	_
+10	Новоселиця	Новоселиця	PROPN	_	_	9	obj	_	_
+11	або	або	CCONJ	_	_	13	cc	_	_
+12	ей	і	DET	_	_	13	det	_	_
+13	варианты	вариантa	NOUN	_	_	10	conj	_	_
+14	.	.	PUNCT	_	_	3	punct	_	_
+
+
+# newdoc id = doc19
+# sent_id = 1
+# text = Але дакотры суть стабилны и такы были выдѣлены в окремом станѣ.
+1	Але	але	CCONJ	_	_	2	mark	_	_
+2	дакотры	дакотрa	NOUN	_	_	4	nsubj	_	_
+3	суть	суть	AUX	_	_	4	cop	_	_
+4	стабилны	стабилнa	NOUN	_	_	0	root	_	_
+5	и	и	CCONJ	_	_	8	cc	_	_
+6	такы	такa	NOUN	_	_	8	nsubj	_	_
+7	были	быти	AUX	_	_	8	cop	_	_
+8	выдѣлены	выдѣленa	NOUN	_	_	4	conj	_	_
+9	в	в	ADP	_	_	11	case	_	_
+10	окремом	окремо	NOUN	_	_	11	nmod	_	_
+11	станѣ	станѣ	NOUN	_	_	8	obl	_	_
+12	.	.	PUNCT	_	_	4	punct	_	_
+
+
+# newdoc id = doc20
+# sent_id = 1
+# text = Але з той тройкы лем Венелин, доставши диплому, медиком не зостав.
+1	Але	але	CCONJ	_	_	4	mark	_	_
+2	з	з	ADP	_	_	4	case	_	_
+3	той	той	ADJ	_	_	4	amod	_	_
+4	тройкы	тройкa	NOUN	_	_	13	obl	_	_
+5	лем	ль	DET	_	_	6	det	_	_
+6	Венелин	Венелин	PROPN	_	_	13	nsubj	_	_
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	доставши	достати	VERB	_	_	13	xcomp	_	_
+9	диплому	диплом	NOUN	_	_	8	obj	_	_
+10	,	,	PUNCT	_	_	8	punct	_	_
+11	медиком	медик	NOUN	_	_	13	obj	_	_
+12	не	не	PART	_	_	13	aux	_	_
+13	зостав	зостати	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+
+# newdoc id = doc21
+# sent_id = 1
+# text = Але з часом ся зачав розвивати и лишав за собов многых в битках.
+1	Але	але	CCONJ	_	_	3	mark	_	_
+2	з	з	ADP	_	_	3	case	_	_
+3	часом	час	NOUN	_	_	5	obl	_	_
+4	ся	ся	PRON	_	_	5	iobj	_	_
+5	зачав	зачати	VERB	_	_	0	root	_	_
+6	розвивати	розвивати	VERB	_	_	5	ccomp	_	_
+7	и	а	NOUN	_	_	8	cc	_	_
+8	лишав	лишати	VERB	_	_	5	conj	_	_
+9	за	за	ADP	_	_	10	case	_	_
+10	собов	собов	NOUN	_	_	8	obl	_	_
+11	многых	многы	NOUN	_	_	8	obj	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	битках	битка	NOUN	_	_	11	nmod	_	_
+14	.	.	PUNCT	_	_	5	punct	_	_
+
+
+# newdoc id = doc22
+# sent_id = 1
+# text = Але историчны подѣи обернули ся так, же тото нигда не стало ся.
+1	Але	але	CCONJ	_	_	3	mark	_	_
+2	историчны	историчнa	ADJ	_	_	3	amod	_	_
+3	подѣи	подѣа	NOUN	_	_	4	nsubj	_	_
+4	обернули	обернути	VERB	_	_	0	root	_	_
+5	ся	ся	PRON	_	_	4	iobj	_	_
+6	так	так	ADV	_	_	4	advmod	_	_
+7	,	,	PUNCT	_	_	12	punct	_	_
+8	же	же	PART	_	_	9	discourse	_	_
+9	тото	тото	PRON	_	_	12	nsubj	_	_
+10	нигда	нигда	ADV	_	_	12	aux	_	_
+11	не	не	PART	_	_	12	aux	_	_
+12	стало	стати	VERB	_	_	4	advcl	_	_
+13	ся	ся	PRON	_	_	12	iobj	_	_
+14	.	.	PUNCT	_	_	4	punct	_	_
+
+
+# newdoc id = doc23
+# sent_id = 1
+# text = Александер выростав без отця, мати му была доичка на фармѣ.
+1	Александер	Александер	NOUN	_	_	2	nsubj	_	_
+2	выростав	выростати	VERB	_	_	0	root	_	_
+3	без	без	ADP	_	_	4	case	_	_
+4	отця	отець	NOUN	_	_	2	obl	_	_
+5	,	,	PUNCT	_	_	9	punct	_	_
+6	мати	мати	NOUN	_	_	9	nsubj	_	_
+7	му	ма	DET	_	_	6	det	_	_
+8	была	быти	VERB	_	_	9	cop	_	_
+9	доичка	доичка	NOUN	_	_	1	acl	_	_
+10	на	на	ADP	_	_	11	case	_	_
+11	фармѣ	фармѣ	NOUN	_	_	9	obl	_	_
+12	.	.	PUNCT	_	_	2	punct	_	_
+
+# newdoc id = doc24
+# sent_id = 1
+# text = Але найвекшыма суть заслугы архиепископа Георгия в оборонѣ бѣлорусского православия перед покатоличеньом.
+1	Але	але	CCONJ	_	_	2	mark	_	_
+2	найвекшыма	найвекшымий	ADJ	_	_	4	nsubj	_	_
+3	суть	суть	AUX	_	_	4	cop	_	_
+4	заслугы	заслугa	NOUN	_	_	0	root	_	_
+5	архиепископа	архиепископ	NOUN	_	_	6	compound	_	_
+6	Георгия	Георгия	PROPN	_	_	4	nmod	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	оборонѣ	оборонѣ	NOUN	_	_	4	obl	_	_
+9	бѣлорусского	бѣлорусский	ADJ	_	_	8	amod	_	_
+10	православия	православия	NOUN	_	_	8	nmod	_	_
+11	перед	перед	ADP	_	_	12	case	_	_
+12	покатоличеньом	покатоличень	NOUN	_	_	4	obl	_	_
+13	.	.	PUNCT	_	_	4	punct	_	_
+
+
+# newdoc id = doc25
+# sent_id = 1
+# text = Але найвеце притяговала Стрипского библиография, выгледованя и штудированя старшых и найстаршых литературных памяток.
+1	Але	але	CCONJ	_	_	2	mark	_	_
+2	найвеце	найвеце	PART	_	_	3	dep	_	_
+3	притяговала	притяговати	VERB	_	_	0	root	_	_
+4	Стрипского	Стрипский	ADJ	_	_	5	amod	_	_
+5	библиография	библиография	NOUN	_	_	3	nsubj:pass	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	выгледованя	выгледованя	NOUN	_	_	3	advcl	_	_
+8	и	а	CCONJ	_	_	9	cc	_	_
+9	штудированя	штудированя	NOUN	_	_	7	conj	_	_
+10	старшых	старшый	ADJ	_	_	14	amod	_	_
+11	и	а	NOUN	_	_	12	cc	_	_
+12	найстаршых	найстаршый	ADJ	_	_	10	conj	_	_
+13	литературных	литературный	ADJ	_	_	14	amod	_	_
+14	памяток	памяток	NOUN	_	_	7	obj	_	_
+15	.	.	PUNCT	_	_	3	punct	_	_
+
+
+# newdoc id = doc26
+# sent_id = 1
+# text = Але од року 2014 з проблемами в економицѣ зачала ся добыча ропы знижовати.
+1	Але	але	CCONJ	_	_	2	mark	_	_
+2	од	од	ADP	_	_	3	case	_	_
+3	року	рік	NOUN	_	_	9	obl	_	_
+4	2014	2014	NOUN	_	_	3	amod	_	_
+5	з	з	ADP	_	_	6	case	_	_
+6	проблемами	проблема	NOUN	_	_	9	obl	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	економицѣ	економицѣ	NOUN	_	_	6	nmod	_	_
+9	зачала	зачати	VERB	_	_	0	root	_	_
+10	ся	ся	PRON	_	_	9	iobj	_	_
+11	добыча	добыча	NOUN	_	_	9	nsubj	_	_
+12	ропы	ропa	NOUN	_	_	11	nmod	_	_
+13	знижовати	знижовати	VERB	_	_	9	xcomp	_	_
+14	.	.	PUNCT	_	_	9	punct	_	_
+
+
+# newdoc id = doc27
+# sent_id = 1
+# text = Але Олкоку подарило ся зареаговати и вывести аероплан на безпечну траекторию.
+1	Але	але	CCONJ	_	_	2	mark	_	_
+2	Олкоку	Олкок	NOUN	_	_	3	nsubj	_	_
+3	подарило	подарити	VERB	_	_	0	root	_	_
+4	ся	ся	PRON	_	_	3	iobj	_	_
+5	зареаговати	зареаговати	VERB	_	_	3	xcomp	_	_
+6	и	а	CCONJ	_	_	7	cc	_	_
+7	вывести	вывести	VERB	_	_	5	conj	_	_
+8	аероплан	аероплан	NOUN	_	_	7	obj	_	_
+9	на	на	ADP	_	_	11	case	_	_
+10	безпечну	безпечний	ADJ	_	_	11	amod	_	_
+11	траекторию	траектория	NOUN	_	_	7	obl	_	_
+12	.	.	PUNCT	_	_	3	punct	_	_
+
+
+# newdoc id = doc28
+# sent_id = 1
+# text = Атлас удносит русинськый язык межи уразливі, а войводинськый русинськый межи бізувно загрожені.
+1	Атлас	Атли	NOUN	_	_	2	nsubj	_	_
+2	удносит	удносит	VERB	_	_	0	root	_	_
+3	русинськый	русинськый	ADJ	_	_	4	amod	_	_
+4	язык	языка	NOUN	_	_	2	obj	_	_
+5	межи	межа	NOUN	_	_	4	nmod	_	_
+6	уразливі	уразливий	ADJ	_	_	5	amod	_	_
+7	,	,	PUNCT	_	_	10	punct	_	_
+8	а	а	CCONJ	_	_	10	cc	_	_
+9	войводинськый	войводинськый	ADJ	_	_	10	amod	_	_
+10	русинськый	русинськый	NOUN	_	_	4	conj	_	_
+11	межи	межа	NOUN	_	_	10	nmod	_	_
+12	бізувно	бізувно	ADV	_	_	13	advmod	_	_
+13	загрожені	загрожений	ADJ	_	_	11	amod	_	_
+14	.	.	PUNCT	_	_	2	punct	_	_
+
+
+# newdoc id = doc29
+# sent_id = 1
+# text = Атомову масу дасть ся вымѣряти даколькыма методами, з котрых найточнйшый — спектрометрия мас.
+1	Атомову	Атомовий	ADJ	_	_	2	amod	_	_
+2	масу	маса	NOUN	_	_	5	nsubj	_	_
+3	дасть	дасть	VERB	_	_	5	aux	_	_
+4	ся	ся	PRON	_	_	3	iobj	_	_
+5	вымѣряти	вымѣряти	VERB	_	_	0	root	_	_
+6	даколькыма	даколькыма	NOUN	_	_	7	nmod	_	_
+7	методами	метод	NOUN	_	_	5	obl	_	_
+8	,	,	PUNCT	_	_	14	punct	_	_
+9	з	з	ADP	_	_	10	case	_	_
+10	котрых	котрый	ADJ	_	_	11	mark	_	_
+11	найточнйшый	найточнйшыя	NOUN	_	_	14	nsubj	_	_
+12	—	—	PUNCT	_	_	14	punct	_	_
+13	спектрометрия	спектрометрия	NOUN	_	_	14	nmod	_	_
+14	мас	маса	NOUN	_	_	7	acl	_	_
+15	.	.	PUNCT	_	_	5	punct	_	_
+
+# newdoc id = doc30
+# sent_id = 1
+# text = Ачей, мав то за свого рода компензацию за то, же зостав неученый.
+1	Ачей	ачей	PROPN	_	_	13	nsubj	_	_
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	мав	мати	VERB	_	_	1	acl	_	_
+4	то	то	PART	_	_	7	mark	_	_
+5	за	за	ADP	_	_	7	case	_	_
+6	свого	свій	DET	_	_	7	det	_	_
+7	рода	рода	NOUN	_	_	3	obj	_	_
+8	компензацию	компензация	NOUN	_	_	7	nmod	_	_
+9	за	за	ADP	_	_	10	case	_	_
+10	то	то	PART	_	_	7	mark	_	_
+11	,	,	PUNCT	_	_	3	punct	_	_
+12	же	же	PART	_	_	13	discourse	_	_
+13	зостав	зостати	VERB	_	_	0	root	_	_
+14	неученый	неученыя	ADJ	_	_	13	obj	_	_
+15	.	.	PUNCT	_	_	13	punct	_	_
+
+
+# newdoc id = doc31
+# sent_id = 1
+# text = Ашшурнасірпал дав наново збудовати на розвалинах бывшой славы новы палацы і храмы.
+1	Ашшурнасірпал	Ашшурнасірпал	NOUN	_	_	2	nsubj	_	_
+2	дав	дати	VERB	_	_	0	root	_	_
+3	наново	наново	ADV	_	_	4	advmod	_	_
+4	збудовати	збудовати	VERB	_	_	2	xcomp	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	розвалинах	розвалина	NOUN	_	_	4	obl	_	_
+7	бывшой	бывшая	ADJ	_	_	8	amod	_	_
+8	славы	славa	NOUN	_	_	6	nmod	_	_
+9	новы	новa	ADJ	_	_	10	amod	_	_
+10	палацы	палацa	NOUN	_	_	4	obj	_	_
+11	і	і	CCONJ	_	_	12	cc	_	_
+12	храмы	храмa	NOUN	_	_	10	conj	_	_
+13	.	.	PUNCT	_	_	2	punct	_	_
+
+
+# newdoc id = doc32
+# sent_id = 1
+# text = Бароковый реформатскый храм походить з року 1752, в року 1865 реконштруованый.
+1	Бароковый	Бароковый	ADJ	_	_	3	amod	_	_
+2	реформатскый	реформатскый	ADJ	_	_	3	amod	_	_
+3	храм	храм	NOUN	_	_	4	nsubj	_	_
+4	походить	походити	VERB	_	_	0	root	_	_
+5	з	з	ADP	_	_	6	case	_	_
+6	року	рік	NOUN	_	_	_	_	_	_
+7	1752	1752	ADJ	_	_	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	12	punct	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	року	рік	NOUN	_	_	12	obl	_	_
+11	1865	1865	ADJ	_	_	10	amod	_	_
+12	реконштруованый	реконштруованыя	ADJ	_	_	3	acl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+
+# newdoc id = doc33
+# sent_id = 1
+# text = Басен, служачый на филтрацию и чищѣня воды, напущать ся з потоку Быстра.
+1	Басен	Басен	NOUN	_	_	10	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	служачый	служачый	ADJ	_	_	1	acl	_	_
+4	на	на	ADP	_	_	8	case	_	_
+5	филтрацию	филтрация	NOUN	_	_	8	amod	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	чищѣня	чищѣня	NOUN	_	_	5	conj	_	_
+8	воды	водa	NOUN	_	_	3	dep	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	3	punct	_	_
+10	напущать	напущати	VERB	_	_	0	root	_	_
+11	ся	ся	PRON	_	_	10	iobj	_	_
+12	з	з	ADP	_	_	13	case	_	_
+13	потоку	потік	NOUN	_	_	10	obl	_	_
+14	Быстра	Быстро	PROPN	_	_	13	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	U	_	10	punct	_	SpacesAfter=\n
+
+
+# newdoc id = doc34
+# sent_id = 1
+# text = Без ваганя знать понукати свою поміч, але не додумує резултаты своёй охоты.
+1	Без	без	ADP	_	_	2	case	_	_
+2	ваганя	ваганя	NOUN	_	_	3	obl	_	_
+3	знать	знати	VERB	_	_	0	root	_	_
+4	понукати	понукати	VERB	_	_	3	xcomp	_	_
+5	свою	свій	DET	_	_	6	det	_	_
+6	поміч	поміч	NOUN	_	_	4	obj	_	_
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	але	але	CCONJ	_	_	10	cc	_	_
+9	не	не	PART	_	_	10	advmod	_	_
+10	додумує	додумувати	VERB	_	_	3	conj	_	_
+11	резултаты	резултатa	NOUN	_	_	10	obj	_	_
+12	своёй	своёй	DET	_	_	13	det	_	_
+13	охоты	охотa	NOUN	_	_	11	nmod	_	_
+14	.	.	PUNCT	_	_	3	punct	_	_
+
+
+# newdoc id = doc35
+# sent_id = 1
+# text = Бігом своёй довгоборічной гісторії Гуменьске співацьке тріё здобыло ряд успіхів і оцїнїнь.
+1	Бігом	бігом	NOUN	_	_	8	advcl	_	_
+2	своёй	своёй	NOUN	_	_	1	nmod	_	_
+3	довгоборічной	довгоборічной	ADJ	_	_	4	amod	_	_
+4	гісторії	гісторія	NOUN	_	_	2	nmod	_	_
+5	Гуменьске	Гуменьский	ADJ	_	_	7	amod	_	_
+6	співацьке	співацький	ADJ	_	_	7	amod	_	_
+7	тріё	тріё	NOUN	_	_	8	nsubj	_	_
+8	здобыло	здобыти	VERB	_	_	0	root	_	_
+9	ряд	ряд	NOUN	_	_	8	obj	_	_
+10	успіхів	успіх	NOUN	_	_	9	nmod	_	_
+11	і	і	CCONJ	_	_	12	cc	_	_
+12	оцїнїнь	оцїнїння	NOUN	_	_	10	conj	_	_
+13	.	.	PUNCT	_	_	8	punct	_	_
+
+
+# newdoc id = doc36
+# sent_id = 1
+# text = Богато є росшырена на россяглій теріторії Европы, Азії і северной Африкы.
+1	Богато	Богато	NOUN	_	_	3	nsubj	_	_
+2	є	бути	AUX	_	_	3	cop	_	_
+3	росшырена	росшырений	ADJ	_	_	0	root	_	_
+4	на	на	ADP	_	_	6	case	_	_
+5	россяглій	россяглий	NOUN	_	_	6	amod	_	_
+6	теріторії	теріторія	NOUN	_	_	3	obl	_	_
+7	Европы	Европa	PROPN	_	_	6	nmod	_	_
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	Азії	Азія	PROPN	_	_	7	conj	_	_
+10	і	і	CCONJ	_	_	12	cc	_	_
+11	северной	северная	ADJ	_	_	12	amod	_	_
+12	Африкы	Африкa	PROPN	_	_	7	conj	_	_
+13	.	.	PUNCT	_	_	3	punct	_	_
+
+# newdoc id = doc37
+# sent_id = 1
+# text = Брав участь в револуции яко вояк в артилерии (1848–1849).
+1	Брав	брати	PROPN	_	_	2	nsubj	_	_
+2	участь	участь	VERB	_	_	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	револуции	револуциа	NOUN	_	_	2	obj	_	_
+5	яко	яко	ADV	_	_	6	case	_	_
+6	вояк	вояк	NOUN	_	_	2	obl	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	артилерии	артилериа	NOUN	_	_	2	obl	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	1848	1848	NUM	_	_	2	dep	_	SpaceAfter=No
+11	–	–	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	1849	1849	NUM	_	_	10	flat	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	_	_	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# newdoc id = doc38
+# sent_id = 1
+# text = Буквално нѣмецке слово Schund означать: смѣтя, нич не варта робота.
+1	Буквално	Буквално	ADV	_	_	5	advmod	_	_
+2	нѣмецке	нѣмецкий	ADJ	_	_	3	adj	_	_
+3	слово	слово	NOUN	_	_	5	nsubj	_	_
+4	Schund	Schund	X	X	Foreign=Yes	3	appos	_	_
+5	означать	означати	VERB	_	_	0	root	_	_
+6	:	:	PUNCT	_	_	7	punct	_	_
+7	смѣтя	смѣтя	NOUN	_	_	5	obj	_	_
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	нич	нич	PRON	_	_	12	nsubj	_	_
+10	не	не	PART	_	_	12	advmod	_	_
+11	варта	вартий	ADJ	_	_	12	amod	_	_
+12	робота	робота	NOUN	_	_	7	appos	_	_
+13	.	.	PUNCT	_	_	5	punct	_	_
+
+# newdoc id = doc39
+# sent_id = 1
+# text = 	Буквы ся все збирают у склады з двох, трёх, даколи чотырёх чамо.
+1	Буквы	буквы	NOUN	_	_	4	nsubj	_	_
+2	ся	ся	PRON	_	_	4	iobj	_	_
+3	все	весь	DET	_	_	1	det	_	_
+4	збирают	збирают	VERB	_	_	0	root	_	_
+5	у	у	ADP	_	_	6	case	_	_
+6	склады	складa	NOUN	_	_	4	obl	_	_
+7	з	з	ADP	_	_	8	case	_	_
+8	двох	два	NUM	_	_	14	nummod	_	_
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	трёх	трёй	NOUN	_	_	8	conj	_	_
+11	,	,	PUNCT	_	_	13	punct	_	_
+12	даколи	дакоти	ADV	_	_	13	advmod	_	_
+13	чотырёх	чотырёй	ADJ	_	_	8	conj	_	_
+14	чамо	чама	NOUN	_	_	6	nmod	_	_
+15	.	.	PUNCT	_	_	4	punct	_	_
+
+
+# newdoc id = doc40
+# sent_id = 1
+# text = Булгары мусѣли занехати союз зоз Франками и прияти крещѣня од византийскых духовных.
+1	Булгары	булгары	PROPN	_	_	2	nsubj	_	_
+2	мусѣли	мусѣти	VERB	_	_	0	root	_	_
+3	занехати	занехати	VERB	_	_	2	xcomp	_	_
+4	союз	союз	NOUN	_	_	3	obj	_	_
+5	зоз	зоз	ADP	_	_	6	case	_	_
+6	Франками	Франки	PROPN	_	_	4	nmod	_	_
+7	и	и	NOUN	_	_	8	cc	_	_
+8	прияти	прияти	VERB	_	_	3	conj	_	_
+9	крещѣня	крещѣня	NOUN	_	_	8	obj	_	_
+10	од	од	ADP	_	_	12	case	_	_
+11	византийскых	византийскый	ADJ	_	_	12	amod	_	_
+12	духовных	духовны	NOUN	_	_	8	obl	_	_
+13	.	.	PUNCT	_	_	2	punct	_	_
