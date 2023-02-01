@@ -21,7 +21,7 @@ This code is running in Rscript version 3.6.1 within conda 4.10.3.
 
 
 # Acknowledgements
-The John and Helen Timo Foundation for providing the original corpus
+Special thanks to the John and Helen Timo Foundation for providing the original corpus.
 
 Wikipedia Data: © 2021 Abteilung Automatische Sprachverarbeitung, Universität Leipzig.
 (their usage terms found here: https://wortschatz.uni-leipzig.de/en/usage)
